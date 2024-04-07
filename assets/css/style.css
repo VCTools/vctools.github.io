@@ -224,7 +224,7 @@ a:hover .cursor::after {
     color: var(--e-global-color-accent);
 }
 .navbar li a:hover {
-    color: var(--e-global-color-light-blue) !important;
+    color: var(--e-global-color-orange) !important;
 }
 .navbar .glib-dropdown {
     padding: 20px 30px 20px 40px;
