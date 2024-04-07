@@ -305,7 +305,7 @@
 
 @media screen and (max-width: 1199px) {
     .main-header {
-        padding: 35px 20px 0;
+        padding: 35px 20px 20px;
     }
     .navbar .navbar-brand {
         margin-right: 80px;
@@ -507,7 +507,7 @@
         width: 100px;
     }
     .mission-section .vision-outer {
-        padding-top: 70px;
+        padding-top: 200px;
     }
     .mission-section .circle-1 {
         left: -20px;

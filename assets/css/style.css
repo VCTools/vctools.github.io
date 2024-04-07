@@ -32,7 +32,7 @@ Project: RexBiz
     --e-global-color-secondary: #816aff;
     --e-global-color-text: #727272;
     --e-global-color-accent: #816aff;
-    --e-global-color-light-blue: #40d8fd;
+    --e-global-color-light-blue: #f0b90b;
     --e-global-color-white: #ffffff;
     --e-global-color-bright-blue: #6b43f8;
     --e-global-color-dark-blue: #20203e;
@@ -43,8 +43,9 @@ Project: RexBiz
     --e-global-color-dark-gray: #7b7e80;
     --e-global-color-grayish-cyan: #c3e6ee;
     --e-global-color-black: #000000;
-    --e-global-color-dark-grayish-blue: #2a333e;
-    --e-global-color-light-grayish-blue: #b1bdcb;
+    --e-global-color-dark-grayish-blue: #f0b90b;
+    --e-global-color-light-grayish-blue: #f0b90b;
+    --e-global-color-orange: #f0b90b;
 }
 body {
     font-family: 'Nunito', sans-serif;
@@ -123,18 +124,18 @@ a {
 .default-btn {
     padding: 19px 49px;
     border-radius: 100px;
-    border: 1px solid var(--e-global-color-light-blue);
+    border: 1px solid var(--e-global-color-orange);
     display: inline-block;
-    color: var(--e-global-color-white);
-    background: var(--e-global-color-light-blue);
-    box-shadow: 0px 4px 22px 0px rgba(64, 216, 253, 0.4);
+    color: var(--e-global-color-orange);
+    background: var(--e-global-color-very-pale);
+
 }
 .default-btn:hover {
-    background: var(--e-global-color-accent);
-    border: 1px solid var(--e-global-color-accent);
+    background: var(--e-global-color-orange);
+    border: 1px solid var(--e-global-color-orange);
     color: var(--e-global-color-white);
     text-decoration: none;
-    box-shadow: 0px 4px 22px 0px rgba(129, 106, 255, 0.1);
+
 }
 .cursor {
     display: none;
@@ -188,7 +189,7 @@ a:hover .cursor::after {
 /*-------- HEADER ------------ */
 
 .main-header {
-    padding: 41px 107px 0;
+    padding: 32px 107px 24px;
 }
 .navbar .navbar-brand {
     margin-right: 97px;
@@ -475,7 +476,11 @@ a:hover .cursor::after {
 /*-------- CHOOSE SECTION ------------ */
 
 .choose-section {
-    padding: 120px 0;
+    padding: 60px 0;
+    background-image: url('../img/bar.png'); /* 图片的URL */
+    background-position: top center; /* 设置图片在顶部中央 */
+    background-repeat: no-repeat; /* 禁止图片重复 */
+    background-size: auto; 
 }
 .choose-section .heading {
     margin-bottom: 47px;
@@ -539,6 +544,10 @@ a:hover .cursor::after {
 .create-section {
     padding: 120px 0;
     background: var(--e-global-color-very-pale);
+    background-image: url('../img/bar.png'); /* 图片的URL */
+    background-position: top center; /* 设置图片在顶部中央 */
+    background-repeat: no-repeat; /* 禁止图片重复 */
+    background-size: auto; 
 }
 .create-section .circle {
     top: -30px;
@@ -575,7 +584,7 @@ a:hover .cursor::after {
     padding-left: 11px;
 }
 .create-section .heading h6 {
-    color: var(--e-global-color-secondary);
+    color: #1F242E;
     margin-bottom: 19px;
 }
 .create-section .heading h2 {
@@ -596,7 +605,7 @@ a:hover .cursor::after {
     transition: all 0.3s ease-in-out;
 }
 .create-section .heading ul li:hover{
-    color: var(--e-global-color-accent);
+    color: var(--e-global-color-orange);
 }
 .create-section .heading ul li i {
     color: var(--e-global-color-light-blue);
@@ -666,8 +675,18 @@ a:hover .cursor::after {
 /*-------- MISSION SECTION ------------ */
 
 .mission-section {
-    padding: 120px 0;
+    padding: 60px 0;
     background: var(--e-global-color-secondary);
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+.mission-section1 {
+    padding: 60px 0;
+    background: var(--e-global-color-secondary);
+    background-image: url('../img/bar.png'); /* 图片的URL */
+    background-position: top center; /* 设置图片在顶部中央 */
+    background-repeat: no-repeat; /* 禁止图片重复 */
+    background-size: auto; 
 }
 .mission-section .circle {
     top: -30px;
@@ -706,7 +725,7 @@ a:hover .cursor::after {
     left: -60px;
 }
 .mission-section .vision-outer {
-    padding-top: 80px;
+    padding-top: 160px;
 }
 .mission-section .vision-outer .heading {
     padding-left: 28px;
@@ -1164,15 +1183,15 @@ a:hover .cursor::after {
 /*-------- FOOTER BAR ------------ */
 
 .footer-bar {
-    background: var(--e-global-color-dark-grayish-blue);
-    padding: 27px 0;
-    border-top: 1px solid #3e4855;
+    background: var(--e-global-color-very-pale);
+    padding: 24px 0;
+/*    border-top: 1px solid #3e4855;*/
 }
 .footer-bar p {
     font-size: 14px;
     line-height: 14px;
     font-weight: 300;
-    color: var(--e-global-color-light-grayish-blue);
+    color: var(--e-global-color-primary);
 }
 .footer-bar .section-right-shape {
     bottom: 0;
@@ -1887,12 +1906,17 @@ a:hover .cursor::after {
 .consulting_section{
     padding: 120px 0;
     background: var(--e-global-color-very-pale);
+    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.2);
+    background-image: url('../img/bar.png'); /* 图片的URL */
+    background-position: top center; /* 设置图片在顶部中央 */
+    background-repeat: no-repeat; /* 禁止图片重复 */
+    background-size: auto; 
 }
 .consulting_section .heading{
     text-align: center;
 }
 .consulting_section .heading h6{
-    color: var(--e-global-color-secondary);
+    color: #1f242e;
     margin-bottom: 22px;
 }
 .consulting_section .heading h2{
@@ -2108,7 +2132,11 @@ a:hover .cursor::after {
 /* About Us Section Style */
 
 .home3_create_section{
-    background: var(--e-global-color-white);
+    background: var(--e-global-color-very-pale);
+    background-image: url('../img/bar.png'); /* 图片的URL */
+    background-position: top center; /* 设置图片在顶部中央 */
+    background-repeat: no-repeat; /* 禁止图片重复 */
+    background-size: auto; 
 }
 .home3_create_section .heading{
     padding-left: 0;
@@ -2117,7 +2145,7 @@ a:hover .cursor::after {
     font-size: 50px;
 }
 .home3_create_section .heading ul li i {
-    background-color: var(--e-global-color-light-blue);
+    background-color: var(--e-global-color-orange);
     color: var(--e-global-color-white);
     font-size: 16px;
     line-height: 20px;
@@ -2130,7 +2158,7 @@ a:hover .cursor::after {
 }
 .home3_create_section .heading ul li:hover i {
     color: var(--e-global-color-white);
-    background-color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-orange);
 }
 .home3_create_section .create-images .create-img-1{
     margin-right: 9px;
@@ -3076,3 +3104,27 @@ a:hover .cursor::after {
 .blog-posts {
     padding: 120px 0;
 }
+
+.cshadow-div {
+        width: 300px;
+        height: 200px;
+        background-color: #fff; /* 背景颜色 */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影属性 */
+}
+    .image-btn {
+      display: inline-block; /* 将按钮转换为行内块元素 */
+      margin-right: 20px; /* 设置按钮之间的右边距 */
+      cursor: pointer; /* 设置鼠标指针样式为手型 */
+      transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
+    }
+
+    /* 鼠标移入效果 */
+    .image-btn:hover {
+      transform: scale(1.1); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
+    }
+
+    /* 图像样式 */
+    .button-img {
+      width: 36px; /* 设置图像的宽度 */
+      height: 36px; /* 设置图像的高度 */
+    }
