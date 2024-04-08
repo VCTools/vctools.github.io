@@ -700,7 +700,7 @@ a:hover .cursor::after {
     z-index: 1;
 }
 .mission-section .heading h6 {
-    color: var(--e-global-color-secondary);
+    color: var(--e-global-color-primary);
     margin-bottom: 19px;
 }
 .mission-section .heading h2 {
@@ -3114,6 +3114,7 @@ a:hover .cursor::after {
     .image-btn {
       display: inline-block; /* 将按钮转换为行内块元素 */
       margin-right: 20px; /* 设置按钮之间的右边距 */
+      margin-top: 20px;
       cursor: pointer; /* 设置鼠标指针样式为手型 */
       transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
     }
