@@ -1904,7 +1904,7 @@ a:hover .cursor::after {
 /* Consulting Section Style */
 
 .consulting_section{
-    padding: 120px 0;
+    padding: 120px 0px 80px 0px;
     background: var(--e-global-color-very-pale);
     box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.2);
     background-image: url('../img/bar.png'); /* 图片的URL */
@@ -3128,4 +3128,22 @@ a:hover .cursor::after {
     .button-img {
       width: 36px; /* 设置图像的宽度 */
       height: 36px; /* 设置图像的高度 */
+    }
+    /* Contact */
+    .image-btn1 {
+      display: inline-block; /* 将按钮转换为行内块元素 */
+      margin: 40px 24px 40px 24px;
+      cursor: pointer; /* 设置鼠标指针样式为手型 */
+      transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
+    }
+
+    /* 鼠标移入效果 */
+    .image-btn1:hover {
+      transform: scale(1.1); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
+    }
+
+    /* 图像样式1 */
+    .button-img1 {
+      width: 64px; /* 设置图像的宽度 */
+      height: 64px; /* 设置图像的高度 */
     }
