@@ -476,7 +476,7 @@ a:hover .cursor::after {
 /*-------- CHOOSE SECTION ------------ */
 
 .choose-section {
-    padding: 60px 0;
+    padding: 80px 0;
     background-image: url('../img/bar.png'); /* 图片的URL */
     background-position: top center; /* 设置图片在顶部中央 */
     background-repeat: no-repeat; /* 禁止图片重复 */
@@ -2980,9 +2980,16 @@ a:hover .cursor::after {
 /* About-2 Page Huge Honor Section Style */
 
 .huge_honor_section .left-shape{
-    top: 145px;
+    top: 30%;
     left: -10px;
+    margin-left: 140px;
 }
+
+.huge_honor_section .right-shape{
+    top: 30%;
+    right: 0px;
+}
+
 .huge_honor_section .heading{
     text-align: center;
     padding-left: 0;
@@ -3111,39 +3118,43 @@ a:hover .cursor::after {
         background-color: #fff; /* 背景颜色 */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影属性 */
 }
-    .image-btn {
+.image-btn {
       display: inline-block; /* 将按钮转换为行内块元素 */
       margin-right: 20px; /* 设置按钮之间的右边距 */
       margin-top: 20px;
       cursor: pointer; /* 设置鼠标指针样式为手型 */
       transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
-    }
+}
 
     /* 鼠标移入效果 */
-    .image-btn:hover {
+.image-btn:hover {
       transform: scale(1.1); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
-    }
+}
 
     /* 图像样式 */
-    .button-img {
+.button-img {
       width: 36px; /* 设置图像的宽度 */
       height: 36px; /* 设置图像的高度 */
-    }
+}
     /* Contact */
-    .image-btn1 {
+.image-btn1 {
       display: inline-block; /* 将按钮转换为行内块元素 */
       margin: 40px 24px 40px 24px;
       cursor: pointer; /* 设置鼠标指针样式为手型 */
       transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
-    }
+}
 
     /* 鼠标移入效果 */
-    .image-btn1:hover {
+.image-btn1:hover {
       transform: scale(1.1); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
-    }
+}
 
     /* 图像样式1 */
-    .button-img1 {
+.button-img1 {
       width: 64px; /* 设置图像的宽度 */
       height: 64px; /* 设置图像的高度 */
-    }
+}
+.Tokenomics-h6 {
+    margin-top: 40px; /* 设置边距 */
+    text-align: center; /* 让内容居中显示 */
+}

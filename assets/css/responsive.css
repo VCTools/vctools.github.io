@@ -299,7 +299,10 @@
         left: 0;
     }
     .huge_honor_section .left-shape img{
-        width: 65px;
+        width: 80%;
+    }
+    .huge_honor_section .right-shape img{
+        width: 80%;
     }
 }
 
@@ -1019,7 +1022,7 @@
     }
 
     .home3_create_section .create-img-1 img {
-        width: 258px;
+        width: 100%;
     }
     .home3_create_section .create-images .create-img-2 img{
         width: 255px;
@@ -1349,7 +1352,10 @@
         padding-top: 15px;
     }
     .huge_honor_section .left-shape img {
-        width: 50px;
+        width: 50%;
+    }
+    .huge_honor_section .right-shape img {
+        width: 50%;
     }
 
     .company_history_section {
@@ -2569,7 +2575,10 @@
         margin-bottom: 25px;
     }
     .huge_honor_section .left-shape img {
-        width: 35px;
+        width: 0%;
+    }
+    .huge_honor_section .right-shape img {
+        width: 0%;
     }
 
     .company_history_section {
@@ -3187,7 +3196,7 @@
         padding: 0;
     }
     .home3_create_section .create-img-1 img {
-        width: 250px;
+        width: 80%;
     }
     .home3_create_section .create-section .create-img-1 img {
         width: 250px;
@@ -4028,7 +4037,7 @@
     }
 
     .home3_create_section .create-img-1 img {
-        width: 160px;
+        width: 100%;
     }
     .home3_create_section .create-images .create-img-2 img {
         width: 156px;
