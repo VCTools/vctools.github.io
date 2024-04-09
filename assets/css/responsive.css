@@ -298,11 +298,15 @@
         top: 25px;
         left: 0;
     }
-    .huge_honor_section .left-shape img{
-        width: 80%;
+    .huge_honor_section .left-shape img {
+        width: 50%;
+        margin-top: 50PX;
+        margin-left: -20px;
     }
-    .huge_honor_section .right-shape img{
-        width: 80%;
+    .huge_honor_section .right-shape img {
+        width: 55%;
+        margin-top: -30PX;
+        margin-right: -50px;
     }
 }
 
@@ -1352,10 +1356,14 @@
         padding-top: 15px;
     }
     .huge_honor_section .left-shape img {
-        width: 50%;
+        width: 35%;
+        margin-top: 80PX;
+        margin-left: -50px;
     }
     .huge_honor_section .right-shape img {
         width: 50%;
+        margin-top: 10PX;
+        margin-right: -120px;
     }
 
     .company_history_section {
@@ -2568,17 +2576,27 @@
     }
     .about2_choose_section .choose_us_box p {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 120px;
     }
 
     .huge_honor_section .heading h2 {
         margin-bottom: 25px;
     }
     .huge_honor_section .left-shape img {
-        width: 0%;
+        width: 25%;
+        height: auto;
+        margin-top: 80PX;
+        margin-left: -80px;
     }
     .huge_honor_section .right-shape img {
-        width: 0%;
+        width: 40%;
+        height: auto;
+        margin-top: 30PX;
+        margin-right: -200px;
+    }
+
+    .home3_create_section .create-img-1 img {
+        width: 200%;
     }
 
     .company_history_section {
@@ -2618,10 +2636,10 @@
 /*    .main-header {
         padding: 20px 20px 0;
     }*/
-    .logo-size{
+/*    .logo-size{
         display: block;
         margin: 0 auto;
-    }
+    }*/
     .home-banner-text {
         padding-top: 50px;
     }
@@ -3201,6 +3219,12 @@
     }
     .home3_create_section .create-img-1 img {
         width: 80%;
+    }
+    .huge_honor_section .right-shape img {
+        width: 0%;
+    }
+    .img-pie-size{
+    width: 50%;
     }
     .home3_create_section .create-section .create-img-1 img {
         width: 250px;
@@ -4041,8 +4065,13 @@
     }
 
     .home3_create_section .create-img-1 img {
-        width: 100%;
+        width: 80%;
     }
+
+    .huge_honor_section .right-shape img {
+        width: 0%;
+    }
+
     .home3_create_section .create-images .create-img-2 img {
         width: 156px;
     }

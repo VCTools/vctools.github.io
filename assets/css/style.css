@@ -452,12 +452,33 @@ a:hover .cursor::after {
     100% { transform: translateY(-30px); }
 }
 .shape2 img {
-    -webkit-animation: movers 1s infinite  alternate;
-    animation: movers 1s infinite  alternate;
+    -webkit-animation: movers 1.5s infinite  alternate;
+    animation: movers 1.5s infinite  alternate;
+}
+.shape3 img {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
 }
 @-webkit-keyframes movers {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-30px); }
+    100% { transform: translateX(-20px); }
+}
+
+.shape4 img {
+    animation: swing 2s infinite alternate, zoom 2s infinite alternate;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 }
 .home-banner-section .banner-img-content .banner-background {
     top: 67px;
@@ -2980,7 +3001,8 @@ a:hover .cursor::after {
 /* About-2 Page Huge Honor Section Style */
 
 .huge_honor_section .left-shape{
-    top: 30%;
+
+    top: 25%;
     left: -10px;
     margin-left: 160px;
 }
@@ -3162,6 +3184,10 @@ a:hover .cursor::after {
 .buy-img-size{
     width: 100px; /* 设置图像的宽度 */
     height: 100px; /* 设置图像的高度 */
+    transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
+}
+.buy-img-size:hover {
+      transform: scale(1.1); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
 }
 .logo-size{
     width: 50%;
@@ -3169,4 +3195,25 @@ a:hover .cursor::after {
 }.logo-size-d{
     width: 40%;
     height:auto;
+    transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
+}
+.logo-size-d:hover {
+      transform: scale(1.05); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
+}
+.huge_honor_section .left-shape img {
+    width: 50%;
+    margin-top: 0PX;
+    margin-left: -10px;
+}
+.huge_honor_section .right-shape img {
+    width: 53%;
+    margin-top: -30PX;
+    margin-right: 0px;
+}
+.img-pie-size{
+    width: 100%;
+    transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
+}
+.img-pie-size:hover {
+      transform: scale(1.05); /* 在鼠标移入时将按钮放大到原大小的1.1倍 */
 }
