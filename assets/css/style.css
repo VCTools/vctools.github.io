@@ -2982,12 +2982,13 @@ a:hover .cursor::after {
 .huge_honor_section .left-shape{
     top: 30%;
     left: -10px;
-    margin-left: 140px;
+    margin-left: 160px;
 }
 
 .huge_honor_section .right-shape{
     top: 30%;
     right: 0px;
+    margin-right: -100px;
 }
 
 .huge_honor_section .heading{
