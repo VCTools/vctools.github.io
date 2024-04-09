@@ -3134,8 +3134,8 @@ a:hover .cursor::after {
 
     /* 图像样式 */
 .button-img {
-      width: 36px; /* 设置图像的宽度 */
-      height: 36px; /* 设置图像的高度 */
+      width: 80px; /* 设置图像的宽度 */
+      height: 80px; /* 设置图像的高度 */
 }
     /* Contact */
 .image-btn1 {
@@ -3152,8 +3152,8 @@ a:hover .cursor::after {
 
     /* 图像样式1 */
 .button-img1 {
-      width: 64px; /* 设置图像的宽度 */
-      height: 64px; /* 设置图像的高度 */
+      width: 80px; /* 设置图像的宽度 */
+      height: 80px; /* 设置图像的高度 */
 }
 .Tokenomics-h6 {
     margin-top: 40px; /* 设置边距 */
