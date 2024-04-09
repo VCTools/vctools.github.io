@@ -456,16 +456,18 @@ a:hover .cursor::after {
     animation: movers 1.5s infinite  alternate;
 }
 .shape3 img {
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 2s infinite  alternate;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    transition: transform 0.3s; /* 添加过渡效果，使放大过程更平滑 */
 }
 @-webkit-keyframes movers {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-20px); }
+    100% { transform: translateX(-30px); }
 }
 
 .shape4 img {
-    animation: swing 2s infinite alternate, zoom 2s infinite alternate;
+    animation: swing 3s infinite alternate, zoom 3s infinite alternate;
+    transition: transform 0.2s; /* 添加过渡效果，使放大过程更平滑 */
 }
 
 @keyframes zoom {
@@ -473,12 +475,11 @@ a:hover .cursor::after {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(0.95);
     }
     100% {
         transform: scale(1);
     }
-}
 }
 .home-banner-section .banner-img-content .banner-background {
     top: 67px;
