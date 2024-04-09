@@ -192,7 +192,7 @@ a:hover .cursor::after {
     padding: 32px 107px 24px;
 }
 .navbar .navbar-brand {
-    margin-right: 97px;
+/*    margin-right: 48px;*/
     padding: 0;
 }
 .navbar li {
@@ -3158,4 +3158,15 @@ a:hover .cursor::after {
 .Tokenomics-h6 {
     margin-top: 40px; /* 设置边距 */
     text-align: center; /* 让内容居中显示 */
+}
+.buy-img-size{
+    width: 100px; /* 设置图像的宽度 */
+    height: 100px; /* 设置图像的高度 */
+}
+.logo-size{
+    width: 50%;
+    height:auto;
+}.logo-size-d{
+    width: 40%;
+    height:auto;
 }

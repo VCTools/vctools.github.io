@@ -51,9 +51,9 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .main-header {
+/*    .main-header {
         padding: 40px 40px 0;
-    }
+    }*/
     .home-banner-section {
         padding: 0 40px;
     }
@@ -1377,9 +1377,9 @@
 }
 
 @media screen and (max-width: 991px) {
-    .main-header {
+/*    .main-header {
         padding: 25px 20px 0;
-    }
+    }*/
     .navbar-collapse {
         background: var(--e-global-color-white);
         position: absolute;
@@ -2615,8 +2615,12 @@
         width: 40%;
         top: 35px;
     }
-    .main-header {
+/*    .main-header {
         padding: 20px 20px 0;
+    }*/
+    .logo-size{
+        display: block;
+        margin: 0 auto;
     }
     .home-banner-text {
         padding-top: 50px;
